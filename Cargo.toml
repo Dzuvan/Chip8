@@ -1,0 +1,27 @@
+[package]
+name = "emulator"
+version = "0.1.0"
+authors = ["dzuvan <hrnjak.jovan1@gmail.com>"]
+
+[dependencies]
+cgmath = "*"
+serde = "1.0.11"
+rand = "*"
+log = "0.3.8"
+env_logger = "0.4.3"
+walkdir = "*"
+rayon= "*"
+csv = "*"
+url = "*"
+byteorder="*"
+regex="*"
+memmap="*"
+nix="*"
+num="*"
+[dependencies.gl]
+git = "https://github.com/bjz/gl-rs"
+[dependencies.sdl2]
+# sdl2 = "0.30.0"
+git = "https://github.com/AngryLawyer/rust-sdl2"
+default-features = false
+features = ["ttf","image","gfx","mixer"]
